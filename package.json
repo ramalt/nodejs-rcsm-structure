@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-rcsm-structure",
+  "version": "1.0.0",
+  "description": "Node.js ve Express.js ile birlikte basit, temiz ve standartlara uygun RCSM deseni için şablon proje.",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon ./src/server.js"
+  },
+  "author": "Ramazan Altuntepe",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.0",
+    "winston": "^3.8.1",
+    "winston-mongodb": "^5.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
